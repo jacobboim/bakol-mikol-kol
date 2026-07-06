@@ -18,14 +18,6 @@ export const CATEGORIES = [
 export const LINKS = [
   {
     id: 1,
-    title: "Chassidus & Kabbalah Source Library — NotebookLM",
-    description:
-      "AI-powered NotebookLM notebook — a source library of Chassidus and Kabbalah texts for study and Q&A.",
-    category: "Tool",
-    url: "https://notebooklm.google.com/notebook/08ffb5cc-f65a-4eea-bdc1-8058ff977561",
-  },
-  {
-    id: 2,
     title: "בכל מכל כל",
     description:
       "A personal collection of chiddushim in pnimius — from my very first insight over six years ago to the present, each one a gift from Hashem.",
@@ -33,7 +25,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1rvys4LyhXgLTeV2BeZjdzL-UXpeHCJrPlmdVpiiegSk/edit",
   },
   {
-    id: 3,
+    id: 2,
     title: "Likutei Moharan Charts",
     description:
       "Interactive charts visualizing the structure and themes of Likutei Moharan.",
@@ -41,12 +33,20 @@ export const LINKS = [
     url: "https://likutei-moharan-charts.netlify.app/",
   },
   {
-    id: 4,
+    id: 3,
     title: "Chassidus Index — Torah by Parsha",
     description:
       "Browsable web app indexing Chassidus and Torah content organized by parsha.",
     category: "Site",
     url: "https://chassidus-index.netlify.app/",
+  },
+  {
+    id: 4,
+    title: "Chassidus & Kabbalah Source Library — NotebookLM",
+    description:
+      "AI-powered NotebookLM notebook — a source library of Chassidus and Kabbalah texts for study and Q&A.",
+    category: "Tool",
+    url: "https://notebooklm.google.com/notebook/08ffb5cc-f65a-4eea-bdc1-8058ff977561",
   },
   {
     id: 5,
