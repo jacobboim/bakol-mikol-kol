@@ -274,6 +274,22 @@ export const LINKS = [
   },
   {
     id: 33,
+    title: "Stories of Tzadikim",
+    description:
+      "A collection of stories of tzadikim.",
+    category: "Chassidus",
+    url: "https://docs.google.com/document/d/1S2Xb3QGuLwxd05JR9ihpBhNVD9L24PLmYvyX7ReoJ-c/edit",
+  },
+  {
+    id: 34,
+    title: "Stories of Tzadikim 2",
+    description:
+      "A further collection of stories of tzadikim.",
+    category: "Chassidus",
+    url: "https://docs.google.com/document/d/15g_VR_K8kXucMcZKURFaOCtT8liEx88D4T6PDC6CkwQ/edit",
+  },
+  {
+    id: 35,
     title: "Daas HaSefiros",
     description:
       "Study of the ten sefiros — their structure, meaning, and interrelationships.",
@@ -281,7 +297,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1gdmXkvqXLTJOXnbARJnIfvxMRxV8IqdQi0Dk-E1BgvE/edit",
   },
   {
-    id: 34,
+    id: 36,
     title: "The Path of Yichudim",
     description:
       "A guide to the practice of yichudim — the mystical unifications of Kabbalah.",
