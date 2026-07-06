@@ -19,7 +19,7 @@ export const LINKS = [
     id: 1,
     title: "בכל מכל כל",
     description:
-      "Core collection exploring the concept of Bakol Mikol Kol — the divine blessing of 'all' across the Avos.",
+      "A personal collection of chiddushim in pnimius — from my very first insight over six years ago to the present, each one a gift from Hashem.",
     category: "Chassidus",
     url: "https://docs.google.com/document/d/1rvys4LyhXgLTeV2BeZjdzL-UXpeHCJrPlmdVpiiegSk/edit",
   },
