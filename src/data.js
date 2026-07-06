@@ -1,7 +1,7 @@
 // ─────────────────────────────────────────────────────────────────────────────
 //  ADD / EDIT YOUR LINKS HERE
 //  Each entry: { id, title, description, category, url }
-//  Categories: "Chassidus" | "Parsha" | "Kabbalah" | "Tool" | "Site" | "Other"
+//  Categories: "Chassidus" | "Parsha" | "Kabbalah" | "Tool" | "Drive" | "Site" | "Other"
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const CATEGORIES = [
@@ -10,6 +10,7 @@ export const CATEGORIES = [
   "Parsha",
   "Kabbalah",
   "Tool",
+  "Drive",
   "Site",
   "Other",
 ];
@@ -65,6 +66,30 @@ export const LINKS = [
   },
   {
     id: 7,
+    title: "Breslov — Drive Folder",
+    description:
+      "Google Drive folder — a collection of Breslov sefarim and sources.",
+    category: "Drive",
+    url: "https://drive.google.com/drive/folders/1PCsZajRwPKMAdOJb3j6e-2ZSXOZxDLnh",
+  },
+  {
+    id: 8,
+    title: "Rav Kluger Sefarim — Drive Folder",
+    description:
+      "Google Drive folder — a collection of sefarim from Rav Kluger.",
+    category: "Drive",
+    url: "https://drive.google.com/drive/folders/1UXl-Gj5k5-coIK3LSE6mZdhpG8-XEKjh",
+  },
+  {
+    id: 9,
+    title: "גליונות דעהו — Drive Folder",
+    description:
+      "Google Drive folder — Gilyonos Da'eihu, a collection of sheets and sources.",
+    category: "Drive",
+    url: "https://drive.google.com/drive/folders/1NrnUPki7AGVZq3Uk9nba_EO_WdkxZp01",
+  },
+  {
+    id: 10,
     title: "Torah Ohr — Bereishis",
     description:
       "The Alter Rebbe's Torah Ohr maamarim on Sefer Bereishis, translated with commentary.",
@@ -72,7 +97,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1JKAc_TiBS674v-ADxCKgGdS7_JJDXmWjvYMViz0D8-A/edit",
   },
   {
-    id: 8,
+    id: 11,
     title: "Torah Ohr — Shemos",
     description:
       "The Alter Rebbe's Torah Ohr maamarim on Sefer Shemos, translated with commentary.",
@@ -80,7 +105,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1in_D40-ntl7OfCsOgL_8z2XYxfyGygESO2c8rINMvXg/edit",
   },
   {
-    id: 9,
+    id: 12,
     title: "Likutei Torah — Vayikra",
     description:
       "The Alter Rebbe's Likutei Torah maamarim on Sefer Vayikra, translated with commentary.",
@@ -88,7 +113,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1S86-gOulzJL6zukOsgr1UIxtwj8XKALLk8mCYRVPDGI/edit",
   },
   {
-    id: 10,
+    id: 13,
     title: "Likutei Torah — Bamidbar",
     description:
       "The Alter Rebbe's Likutei Torah maamarim on Sefer Bamidbar, translated with commentary.",
@@ -96,7 +121,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/15KvTzZNY7g4zFbjKU1lyErW_zBwxegf2kVtSEUfVPZY/edit",
   },
   {
-    id: 11,
+    id: 14,
     title: "Torah Ohr — Moadim",
     description:
       "The Alter Rebbe's Torah Ohr maamarim on the Moadim, translated with commentary.",
@@ -104,7 +129,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1KhQlr4QT7QMk-XJTnMILhKlj1n8VlFJsh_oufHk8QDQ/edit",
   },
   {
-    id: 12,
+    id: 15,
     title: "Byam Darkecha — Yomim Noarim",
     description:
       "Summaries from the Byam Darkecha series on the inner dimensions of Kabbalah and Chassidus for Yomim Noarim.",
@@ -112,7 +137,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1s6__Uf6jG9_AuL9K_Yrs3Qwy_txEpowQSn-kwzrYFKQ/edit",
   },
   {
-    id: 13,
+    id: 16,
     title: "בים דרכך — יסודות פנימיות הקבלה",
     description:
       "AI-assisted summary of the foundations of the inner dimensions of Kabbalah, from the Byam Darkecha series.",
@@ -120,7 +145,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1dh1fumsJCTnw3F184xj3w7tE9dpTxsaW/edit",
   },
   {
-    id: 14,
+    id: 17,
     title: "Byam Darkecha — Purim (Sod)",
     description:
       "The hidden, sod-level dimension of Purim from the Byam Darkecha series.",
@@ -128,7 +153,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1p_n-DbcRtH8WNnbIxknX7Es_djszaDHu8DP33gvy7yI/edit",
   },
   {
-    id: 15,
+    id: 18,
     title: "Byam Darkecha — Pesach (Sod)",
     description:
       "The hidden, sod-level dimension of Pesach from the Byam Darkecha series.",
@@ -136,7 +161,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/12O5YvZ0BDk3dzZYnJ4OYQaBb5iiOrXrGO26kbPl-6s8/edit",
   },
   {
-    id: 16,
+    id: 19,
     title: "Byam Darkecha — Chanuka (Shaar HaKavvanos)",
     description:
       "The kavvanot of Chanuka drawn from Shaar HaKavvanos, from the Byam Darkecha series.",
@@ -144,7 +169,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1d8b4WpviOKVyfpdDwJdfZh6tIPiAydkmyNPtNcrkx80/edit",
   },
   {
-    id: 17,
+    id: 20,
     title: "Byam Darkecha — Purim (Pshat)",
     description:
       "The plain-level pshat dimension of Purim from the Byam Darkecha series.",
@@ -152,7 +177,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1YGuZJbGeUCmUnc0_dipdmkZwpGvcGvfP5ytE_z2P2iM/edit",
   },
   {
-    id: 18,
+    id: 21,
     title: "Byam Darkecha — Dveikus",
     description:
       "Teachings on dveikus — cleaving to Hashem — from the Byam Darkecha series.",
@@ -160,7 +185,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1sjg5cWW75zBNtoggDPu8OWqxKlGjvA5lT7l72eUuY1U/edit",
   },
   {
-    id: 19,
+    id: 22,
     title: "Imrei Bina / Kuntreisim — Mittler Rebbe",
     description:
       "Translated maamarim from the Mittler Rebbe's Imrei Bina and related kuntreisim.",
@@ -168,7 +193,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1U_BzxBt6FI40BeshRO5nHOgCHU7vv-tYAiTsDKbsk3U/edit",
   },
   {
-    id: 20,
+    id: 23,
     title: "Rav Mottel — Tanya 1–34",
     description:
       "Rav Mottel's shiurim on Tanya, chapters 1 through 34, with explanation and summaries.",
@@ -176,7 +201,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1riagnadhd9wc12rhvsTD7d3vIOjV8Ymam3WuZCGmHR0/edit",
   },
   {
-    id: 21,
+    id: 24,
     title: "Rav Mottel — Tanya 35–53",
     description:
       "Rav Mottel's shiurim on Tanya, chapters 35 through 53, with explanation and summaries.",
@@ -184,7 +209,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1wTIR_zhtRmfZcaor74-leEhyLr7boowP4zCeL229Nns/edit",
   },
   {
-    id: 22,
+    id: 25,
     title: "Likutei Moharan — Chavrusa Summaries",
     description:
       "Chavrusa-style summaries of the torot of Rebbe Nachman's Likutei Moharan.",
@@ -192,7 +217,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1l3vN4C5O1ZPhiHOYD-7exownp85PgV9ewW_4FmIfQJs/edit",
   },
   {
-    id: 23,
+    id: 26,
     title: "Shaarei Orah — Mittler Rebbe (Chanuka / Purim)",
     description:
       "The Mittler Rebbe's Shaarei Orah discourses on Chanuka and Purim.",
@@ -200,7 +225,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1YJBmHDHxR4fUajiRoSWxDCNnMjQQ_PKZDMx7xiPCeP0/edit",
   },
   {
-    id: 24,
+    id: 27,
     title: "Derech Mitzvosecha Aleph",
     description:
       "Translation and summaries of the Tzemach Tzedek's Derech Mitzvosecha, part 1.",
@@ -208,7 +233,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1fpOFo_ohRYqWjrjSXQYYRBIpiCeaZ2eUPxTyZnwQd0o/edit?tab=t.0",
   },
   {
-    id: 25,
+    id: 28,
     title: "Otzer HaMaggid — Introduction",
     description:
       "Introduction to the teachings of the Maggid of Mezritch, from the Otzer HaMaggid.",
@@ -216,7 +241,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/13bBoxCCGF2cCl0bfyRkVyiER6v2lviXCTcMrMvG7x4M/edit",
   },
   {
-    id: 26,
+    id: 29,
     title: "Daas HaTefillah",
     description:
       "Study of the inner meaning of tefillah — the knowledge and kavvanot of prayer.",
@@ -224,7 +249,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1OenDvdxa7zpHQxYu6763h8AK0jAV-lVzVk99GTAIMII/edit",
   },
   {
-    id: 27,
+    id: 30,
     title: "Rav Mottel — Remazim Bereishis / Moadim",
     description:
       "Rav Mottel's remazim and insights on Sefer Bereishis and the Moadim.",
@@ -232,7 +257,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/15xubQ3C9LBFlM5KDSdW4xH6-Hywxs2zVXPtBU235Y9M/edit",
   },
   {
-    id: 28,
+    id: 31,
     title: "Rav Mottel — Remazim Vayikra–Devarim",
     description:
       "Rav Mottel's remazim and insights on Sefer Vayikra through Devarim.",
@@ -240,7 +265,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1ojzwplgprOxBYnCClK1YyFhJuEiMJJzSs1Ffbs8_RYY/edit",
   },
   {
-    id: 29,
+    id: 32,
     title: "Alter Rebbe — Stories",
     description:
       "A collection of stories of the Alter Rebbe, founder of Chabad Chassidus.",
@@ -248,7 +273,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1rH693E3eUpH6ZdVVGDYrv6oprPIgstceyRmppAbIOTw/edit",
   },
   {
-    id: 30,
+    id: 33,
     title: "Daas HaSefiros",
     description:
       "Study of the ten sefiros — their structure, meaning, and interrelationships.",
@@ -256,7 +281,7 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1gdmXkvqXLTJOXnbARJnIfvxMRxV8IqdQi0Dk-E1BgvE/edit",
   },
   {
-    id: 31,
+    id: 34,
     title: "The Path of Yichudim",
     description:
       "A guide to the practice of yichudim — the mystical unifications of Kabbalah.",
