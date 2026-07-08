@@ -41,6 +41,14 @@ export const LINKS = [
     url: "https://chassidus-index.netlify.app/",
   },
   {
+    id: 38,
+    title: "Kol Yemei Chayav — Daily Shulchan Aruch",
+    description:
+      "A daily Shulchan Aruch site — the day's halachos for consistent, ongoing learning.",
+    category: "Site",
+    url: "https://kol-yemei-chayav.netlify.app",
+  },
+  {
     id: 4,
     title: "Chassidus & Kabbalah Source Library — NotebookLM",
     description:
