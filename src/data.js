@@ -105,6 +105,14 @@ export const LINKS = [
     url: "https://drive.google.com/drive/folders/1NrnUPki7AGVZq3Uk9nba_EO_WdkxZp01",
   },
   {
+    id: 38,
+    title: "HaTzion Kakodesh — Uman Rosh Hashana",
+    description:
+      "Everything you need to know from start to finish about going to Uman for Rosh Hashana.",
+    category: "Chassidus",
+    url: "https://docs.google.com/document/d/1OZ9gQZDB0MHSYTyA0U6C5TzCx2oHK1YyQR6sgt4ebzw/edit",
+  },
+  {
     id: 11,
     title: "Torah Ohr — Bereishis",
     description:
