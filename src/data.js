@@ -225,6 +225,14 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1U_BzxBt6FI40BeshRO5nHOgCHU7vv-tYAiTsDKbsk3U/edit",
   },
   {
+    id: 27,
+    title: "Shaarei Orah — Mittler Rebbe (Chanuka / Purim)",
+    description:
+      "The Mittler Rebbe's Shaarei Orah discourses on Chanuka and Purim.",
+    category: "Chassidus",
+    url: "https://docs.google.com/document/d/1YJBmHDHxR4fUajiRoSWxDCNnMjQQ_PKZDMx7xiPCeP0/edit",
+  },
+  {
     id: 24,
     title: "Rav Mottel — Tanya 1–34",
     description:
@@ -247,14 +255,6 @@ export const LINKS = [
       "Chavrusa-style summaries of the torot of Rebbe Nachman's Likutei Moharan.",
     category: "Chassidus",
     url: "https://docs.google.com/document/d/1l3vN4C5O1ZPhiHOYD-7exownp85PgV9ewW_4FmIfQJs/edit",
-  },
-  {
-    id: 27,
-    title: "Shaarei Orah — Mittler Rebbe (Chanuka / Purim)",
-    description:
-      "The Mittler Rebbe's Shaarei Orah discourses on Chanuka and Purim.",
-    category: "Chassidus",
-    url: "https://docs.google.com/document/d/1YJBmHDHxR4fUajiRoSWxDCNnMjQQ_PKZDMx7xiPCeP0/edit",
   },
   {
     id: 28,
