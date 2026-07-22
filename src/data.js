@@ -113,6 +113,14 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1OZ9gQZDB0MHSYTyA0U6C5TzCx2oHK1YyQR6sgt4ebzw/edit",
   },
   {
+    id: 40,
+    title: "Otzar Pnini HaChassidus — Moadim",
+    description:
+      "Everything you need to know from start to finish about the moadim from the perspective of Chassidus.",
+    category: "Chassidus",
+    url: "https://docs.google.com/document/d/1u0ls70URKKFHiy6p3IISEkd_6thTMaQFY8ssuO7FqvM/edit",
+  },
+  {
     id: 11,
     title: "Torah Ohr — Bereishis",
     description:
