@@ -3,12 +3,12 @@ import { LINKS, CATEGORIES } from "./data";
 import "./App.css";
 
 const CATEGORY_COLORS = {
-  Chassidus: { bg: "#EAE0F5", text: "#5B2D8E" },
-  Parsha: { bg: "#DFF0E8", text: "#1A6640" },
-  Kabbalah: { bg: "#E8EBF7", text: "#2D3A6B" },
-  Tool: { bg: "#FDF0D5", text: "#7A5200" },
-  Site: { bg: "#F7E8E8", text: "#7A2020" },
-  Other: { bg: "#EBEBEB", text: "#444444" },
+  Chassidus: { bg: "#e4d8f5", text: "#5b2d8e" },
+  Parsha:    { bg: "#d0eedf", text: "#166534" },
+  Kabbalah:  { bg: "#d0e8f5", text: "#0e5a7a" },
+  Tool:      { bg: "#d6eef7", text: "#0e7490" },
+  Site:      { bg: "#dce9ef", text: "#1e4d62" },
+  Other:     { bg: "#dce9ef", text: "#4d6675" },
 };
 
 function CategoryPill({ category }) {

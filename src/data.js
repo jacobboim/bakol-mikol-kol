@@ -168,6 +168,16 @@ export const LINKS = [
     category: "Kabbalah",
     url: "https://docs.google.com/document/d/1s6__Uf6jG9_AuL9K_Yrs3Qwy_txEpowQSn-kwzrYFKQ/edit",
   },
+
+  {
+    id: 41,
+    title: "Otzar Kisvei Arizal - Sukkos",
+    description:
+      "Summaries from the Otzar Kisvei Arizal on the inner dimensions of Kabbalah and Chassidus for Sukkos.",
+    category: "Kabbalah",
+    url: "https://docs.google.com/document/d/1J8W3dqs3_7YU8jsqL19Fzd1DfCj1hdJKXdaHwOluGS4/edit",
+  },
+
   {
     id: 17,
     title: "בים דרכך — יסודות פנימיות הקבלה",
