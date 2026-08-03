@@ -160,6 +160,15 @@ export const LINKS = [
     category: "Chassidus",
     url: "https://docs.google.com/document/d/1KhQlr4QT7QMk-XJTnMILhKlj1n8VlFJsh_oufHk8QDQ/edit",
   },
+
+  {
+    id: 43,
+    title: "Liktuei Yam Hachochmah - Elul/RH/YK/Sukkos",
+    description:
+      "Summaries from the Liktuei Yam Hachochmah on the inner dimensions of Kabbalah and Chassidus for Elul, Rosh Hashana, Yom Kippur, and Sukkos.",
+    category: "Kabbalah",
+    url: "https://docs.google.com/document/d/1m3dZsix1eyIomG3R-wfdwGF8uHyYmqQh_pC7Oo2UgHI/edit?tab=t.0#heading=h.90u8izf5lbau",
+  },
   {
     id: 16,
     title: "Byam Darkecha — Yomim Noarim",
@@ -171,13 +180,21 @@ export const LINKS = [
 
   {
     id: 41,
-    title: "Otzar Kisvei Arizal - Sukkos",
+    title: "Otzar Kisvei Arizal - Sukkos / Nanuim",
     description:
       "Summaries from the Otzar Kisvei Arizal on the inner dimensions of Kabbalah and Chassidus for Sukkos.",
     category: "Kabbalah",
     url: "https://docs.google.com/document/d/1J8W3dqs3_7YU8jsqL19Fzd1DfCj1hdJKXdaHwOluGS4/edit",
   },
 
+  {
+    id: 42,
+    title: "Otzar Kisvei Arizal - Sukkah",
+    description:
+      "Summaries from the Otzar Kisvei Arizal on the inner dimensions of Kabbalah and Chassidus on the topic of sukkah.",
+    category: "Kabbalah",
+    url: "https://docs.google.com/document/d/1FGvGOtiqTllbcNbWAEghJoA4D7lsKc8KM3exislEQBI/edit",
+  },
   {
     id: 17,
     title: "בים דרכך — יסודות פנימיות הקבלה",
