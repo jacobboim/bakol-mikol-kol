@@ -2,6 +2,7 @@
 //  ADD / EDIT YOUR LINKS HERE
 //  Each entry: { id, title, description, category, url }
 //  Categories: "Chassidus" | "Parsha" | "Kabbalah" | "Tool" | "Drive" | "Site" | "Other"
+//  Special filter: "Moadim" (cross-category holiday matcher)
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const CATEGORIES = [
@@ -9,6 +10,7 @@ export const CATEGORIES = [
   "Chassidus",
   "Parsha",
   "Kabbalah",
+  "Moadim",
   "Tool",
   "Drive",
   "Site",

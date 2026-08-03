@@ -2,13 +2,40 @@ import { useState, useMemo } from "react";
 import { LINKS, CATEGORIES } from "./data";
 import "./App.css";
 
+const MOADIM_KEYWORDS = [
+  "chag",
+  "chagim",
+  "holiday",
+  "holidays",
+  "moadim",
+  "yomim noarim",
+  "yomim noraim",
+  "elul",
+  "rosh hashana",
+  "yom kippur",
+  "sukkos",
+  "sukkot",
+  "sukkah",
+  "pesach",
+  "purim",
+  "chanuka",
+  "chanukah",
+  "shavuos",
+  "shavuot",
+];
+
+function isMoadimLink(item) {
+  const text = `${item.title} ${item.description}`.toLowerCase();
+  return MOADIM_KEYWORDS.some((keyword) => text.includes(keyword));
+}
+
 const CATEGORY_COLORS = {
   Chassidus: { bg: "#e4d8f5", text: "#5b2d8e" },
-  Parsha:    { bg: "#d0eedf", text: "#166534" },
-  Kabbalah:  { bg: "#d0e8f5", text: "#0e5a7a" },
-  Tool:      { bg: "#d6eef7", text: "#0e7490" },
-  Site:      { bg: "#dce9ef", text: "#1e4d62" },
-  Other:     { bg: "#dce9ef", text: "#4d6675" },
+  Parsha: { bg: "#d0eedf", text: "#166534" },
+  Kabbalah: { bg: "#d0e8f5", text: "#0e5a7a" },
+  Tool: { bg: "#d6eef7", text: "#0e7490" },
+  Site: { bg: "#dce9ef", text: "#1e4d62" },
+  Other: { bg: "#dce9ef", text: "#4d6675" },
 };
 
 function CategoryPill({ category }) {
@@ -51,7 +78,11 @@ export default function App() {
     const q = search.toLowerCase().trim();
     return LINKS.filter((item) => {
       const matchesCategory =
-        activeCategory === "All" || item.category === activeCategory;
+        activeCategory === "All"
+          ? true
+          : activeCategory === "Moadim"
+            ? isMoadimLink(item)
+            : item.category === activeCategory;
       const matchesSearch =
         !q ||
         item.title.toLowerCase().includes(q) ||
