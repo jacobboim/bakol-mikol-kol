@@ -83,6 +83,14 @@ export const LINKS = [
     url: "https://notebooklm.google.com/notebook/62630e01-8cd9-4a8d-bc96-a7d7ec53423f",
   },
   {
+    id: 44,
+    title: "Chagei Tishrei — NotebookLM",
+    description:
+      "AI-powered NotebookLM notebook — Chassdius / kabbalah sources for all Chagim of Tishrei",
+    category: "Tool",
+    url: "https://notebook.google.com/notebook/521a37b4-c248-4884-b0f3-747a0a4669ed",
+  },
+  {
     id: 8,
     title: "Breslov — Drive Folder",
     description:
