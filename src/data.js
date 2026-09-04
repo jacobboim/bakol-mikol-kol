@@ -163,6 +163,14 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/15KvTzZNY7g4zFbjKU1lyErW_zBwxegf2kVtSEUfVPZY/edit",
   },
   {
+    id: 45,
+    title: "Likutei Torah — Devarim",
+    description:
+      "The Alter Rebbe's Likutei Torah maamarim on Sefer Devarim, translated with commentary.",
+    category: "Chassidus",
+    url: "https://docs.google.com/document/d/1G3Tw4UGWW5o6HWZqnUPaIGIvjdjrlwPL6BokZ39-UWc/edit",
+  },
+  {
     id: 15,
     title: "Torah Ohr — Moadim",
     description:
