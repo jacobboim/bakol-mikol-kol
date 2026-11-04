@@ -214,6 +214,22 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1FGvGOtiqTllbcNbWAEghJoA4D7lsKc8KM3exislEQBI/edit",
   },
   {
+    id: 46,
+    title: "Otzar Kisvei Arizal - Chanuka",
+    description:
+      "Summaries from the Otzar Kisvei Arizal on the inner dimensions of Kabbalah and Chassidus for Chanuka.",
+    category: "Kabbalah",
+    url: "https://docs.google.com/document/d/1lIcZNTSyv_IpddN9vO86cDCY0OCKPeQZ7dygOj4v6yg/edit",
+  },
+  {
+    id: 20,
+    title: "Byam Darkecha — Chanuka (Shaar HaKavvanos)",
+    description:
+      "The kavvanot of Chanuka drawn from Shaar HaKavvanos, from the Byam Darkecha series.",
+    category: "Kabbalah",
+    url: "https://docs.google.com/document/d/1d8b4WpviOKVyfpdDwJdfZh6tIPiAydkmyNPtNcrkx80/edit",
+  },
+  {
     id: 17,
     title: "בים דרכך — יסודות פנימיות הקבלה",
     description:
@@ -236,14 +252,6 @@ export const LINKS = [
       "The hidden, sod-level dimension of Pesach from the Byam Darkecha series.",
     category: "Kabbalah",
     url: "https://docs.google.com/document/d/12O5YvZ0BDk3dzZYnJ4OYQaBb5iiOrXrGO26kbPl-6s8/edit",
-  },
-  {
-    id: 20,
-    title: "Byam Darkecha — Chanuka (Shaar HaKavvanos)",
-    description:
-      "The kavvanot of Chanuka drawn from Shaar HaKavvanos, from the Byam Darkecha series.",
-    category: "Kabbalah",
-    url: "https://docs.google.com/document/d/1d8b4WpviOKVyfpdDwJdfZh6tIPiAydkmyNPtNcrkx80/edit",
   },
   {
     id: 21,
@@ -276,6 +284,14 @@ export const LINKS = [
       "The Mittler Rebbe's Shaarei Orah discourses on Chanuka and Purim.",
     category: "Chassidus",
     url: "https://docs.google.com/document/d/1YJBmHDHxR4fUajiRoSWxDCNnMjQQ_PKZDMx7xiPCeP0/edit",
+  },
+  {
+    id: 47,
+    title: "Sha'arei HaYichud VeEmunah",
+    description:
+      "Sha'arei HaYichud VeEmunah by R' Aharon HaLevi Horowitz of Starosselje.",
+    category: "Chassidus",
+    url: "https://docs.google.com/document/d/1X4lgjoBFf-V1qqjwOEVBkbCktu208UNdzCm9evVS7qg/edit",
   },
   {
     id: 24,
