@@ -294,6 +294,14 @@ export const LINKS = [
     url: "https://docs.google.com/document/d/1X4lgjoBFf-V1qqjwOEVBkbCktu208UNdzCm9evVS7qg/edit",
   },
   {
+    id: 48,
+    title: "Shaarei HaHishtalshelus",
+    description:
+      "Shaarei HaHishtalshelus by R' Aharon HaLevi Horowitz of Starosselje.",
+    category: "Chassidus",
+    url: "https://docs.google.com/document/d/1P12gCAM-wmr8IX4r6KNKCcIe9gVW4OWeEHgBaZjw0KY/edit?usp=drivesdk",
+  },
+  {
     id: 24,
     title: "Rav Mottel — Tanya 1–34",
     description:
